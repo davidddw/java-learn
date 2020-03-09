@@ -19,11 +19,9 @@ import org.bson.Document;
 
 /**
  * Hello world!
- *
  */
-public class App {
-
-    private static String host = "192.168.1.62";
+public final class App {
+    private static String host = "localhost";
     private static String user = "cloud";
     private static String passwd = "passwd";
     private static String db = "mydb";
